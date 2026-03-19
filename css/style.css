@@ -1,9 +1,24 @@
 h1 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     font-size: 48px;
     color: darkorange
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: darkblue
+}
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color:black;
+    font-style : garamond;
 }
 body {
     
@@ -16,14 +31,64 @@ body {
     
 }
 button {
-    background-color: darksalmon;
-    color: rgb(126, 16, 141);
+    background-color: grey;
+    color: blue;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+    
 
+}
+.categories-container {
+    display: flex;
+    flex-direction: row;   
+    gap: 20px;             
+    flex-wrap: wrap;       
+    justify-content: center;
+}
+img {
+  border-radius: 10px;
+}
+section {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* logo left, links right */
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
 }
 
 
+
+.nav-links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px; /* space between links */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: orange;
+}
+.recipe {
+    display: flex;   
+    flex-direction: row;       
+    gap: 20px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
